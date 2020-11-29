@@ -18,10 +18,5 @@ python 3.7.5
 python manage.py runserver 0.0.0.0:8001
 ```
 
-# Visit Swagger doc on the browser for endpoints
-
-```
-localhost:8001
-```
-
+# Visit Swagger doc on the browser for endpoints or import postman collections from the postman folder.
 
