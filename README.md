@@ -15,7 +15,7 @@ python manage.py makemigrations 'user_management'
 python manage.py migrate
 ```
 
-4. Create Admin user
+4. Create Admin user. This admin can be used for deleting a user, listing all or one users
 ```
 python manage.py createsuperuser
 ```
@@ -30,3 +30,5 @@ python manage.py runserver 0.0.0.0:8001
 ```
 localhost:8001
 ```
+
+
