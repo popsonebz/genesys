@@ -1,5 +1,7 @@
 # User Management System
 
+This api uses basic authentication to access some endpoints.
+
 ## Pre-requisite
 
 1. Install python 3.7.5
