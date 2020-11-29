@@ -4,30 +4,21 @@ This api uses basic authentication to access some endpoints.
 
 ## Pre-requisite
 
-1. Install python 3.7.5
+python 3.7.5
 
-2. Install requirements
-```
-pip install -r requirements.txt
-```
+## setup environment
 
-3. Run Database Migration
 ```
-python manage.py makemigrations 'user_management'
-python manage.py migrate
+./install.sh
 ```
 
-4. Create Admin user. This admin can be used for deleting a user, listing all or one users
-```
-python manage.py createsuperuser
-```
+## Start Server
 
-5. Run Server
 ```
 python manage.py runserver 0.0.0.0:8001
 ```
 
-6. Visit Swagger doc on the browser for endpoints
+# Visit Swagger doc on the browser for endpoints
 
 ```
 localhost:8001
