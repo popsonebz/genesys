@@ -8,7 +8,7 @@ This api uses basic authentication to access some endpoints.
 
 2. Install requirements
 ```
-pip install -R requirements.txt
+pip install -r requirements.txt
 ```
 
 3. Run Database Migration
