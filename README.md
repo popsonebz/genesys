@@ -11,7 +11,7 @@ pip install -R requirements.txt
 
 3. Run Database Migration
 ```
-python manage.py makemigrations
+python manage.py makemigrations 'user_management'
 python manage.py migrate
 ```
 
